@@ -1,0 +1,80 @@
+body {
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+header a{
+    text-decoration: none;
+    color: #333467;
+    font-weight: 600;
+    padding: 10px;
+}
+
+header a:hover{
+    color: #f26f21;
+}
+
+header > img{
+    margin-right: 300px;
+}
+
+section{
+    margin-top: 100px;
+    color: #333467;
+    text-align: center;
+}
+
+p{
+    color: black;
+    font-size: 18px;
+}
+
+.stekjes{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stek1{
+    display: flex;
+    justify-content: center;
+}
+
+.stek1 > p{
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.stek1 > img{
+    border-radius: 25px;
+    /* box-shadow: 0 0 10px 10px #7c7c7c */
+}
+
+.stek2{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    background-color:#333467;
+}
+
+.stek2 > p{
+    color: white;
+    font-weight: 600;
+    font-size: 23px;
+    margin-right: 50px;
+}
+
+.stek2 > img{
+    border-radius: 25px;
+}
