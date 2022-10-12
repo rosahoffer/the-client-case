@@ -1,6 +1,11 @@
+/* *{
+  max-width: 100%;
+  margin: 0;
+} */
 
 body {
-    width:100%;
+    max-width: 100%;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -8,10 +13,9 @@ header{
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
-.de-stekjesbieb{
+.header-title{
     background-image: url("assets/bc_header_bg.png");
     background-size: cover;
     padding-top: 60px;
@@ -23,7 +27,7 @@ header{
     justify-content: center;
 }
 
-.de-stekjesbieb > h1{
+.header-title > h1{
     font-size: 34px;
     text-transform: uppercase;
     color: #F26F21;
@@ -31,6 +35,22 @@ header{
     padding: 10px 20px 10px 10px;
     background-color: #fff;
 }
+
+h3{
+    color: #F26F21;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+h4{
+  padding-top: 20px;
+  color: black;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+}
+
 
 /* HET RUILPROCES  */
 
@@ -122,6 +142,11 @@ p{
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
       }
+
+.stekjes-container1 >  a{
+        text-decoration: none;
+        color: white;
+}
       
 .stekjes-container1 > div button:hover {
         opacity: 0.7;
@@ -184,11 +209,13 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #ffffff;
     color: #FFF;
     height: 50px;
     padding: 1em;
+    margin-right: 100px;
+    margin-left: 100px;
   }
   
   nav {
@@ -224,7 +251,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 100px;
   }
   
   #menu-toggle {
@@ -267,7 +293,7 @@ header {
     transform: rotate(-405deg);
   }
   
-  @media (max-width: 1024px) {
+  @media (max-width: 1200px) {
     .menu-button-container {
       display: flex;
     }
@@ -351,3 +377,67 @@ header {
   }
 
 }
+
+/* RESERVEREN */
+
+.bedankt-tekst{
+  padding-top: 70px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.bedankt-tekst-2{
+  font-weight: 100;
+  padding-bottom: 100px;
+}
+
+.intro-tekst{
+  padding-top: 70px;
+  text-align: center;
+  font-size: 26px;
+}
+
+form { max-width:500px; margin:50px auto; 
+  padding-bottom: 50px;
+}
+
+.feedback-input {
+  color:black;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #333467;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #333467; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  width: 100%;
+  background:#333467;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#f26f21; }
