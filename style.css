@@ -52,7 +52,7 @@ h4{
 }
 
 
-/* HET RUILPROCES  */
+/* Hoe werkt het?  */
 
 .het-ruilproces-info{
     margin-top: 150px;
@@ -63,6 +63,12 @@ h4{
     margin-bottom: 150px;
 }
 
+.het-ruilproces-info-tekst{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .het-ruilproces-info-tekst > h1{
     margin-left: 100px;
     font-weight: 600;
@@ -70,8 +76,8 @@ h4{
 }
 
 .het-ruilproces-info-tekst > p{
+    margin-top: -10px;
     margin-left: 100px;
-    line-height: 20pt;
 }
 
 .het-ruilproces-info > img{
@@ -82,6 +88,30 @@ p{
     color: black;
     font-size: 18px;
     margin: 0;
+    line-height: 20pt;
+}
+
+/* DONEREN CONTAINER */
+
+.doneren{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color:#333467;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.doneren > div{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 100px;
+  padding: 20px 20px 40px 20px;
 }
 
 /* STEKJES OPMAAK */
@@ -195,6 +225,31 @@ p{
 .stekjes-container2 > div button:hover {
         opacity: 0.7;
       }
+
+
+/* OVER BUURTCAMPUS */
+
+.buurtcampus-info-container {
+  display: block;
+  justify-content: center;
+  margin: 150px 300px 150px 300px;
+  text-align: center;
+  align-items: center;
+}
+
+.buurtcampus-info-container-tekst{
+  margin-bottom: 100px;
+}
+
+.buurtcampus-info-container-tekst > h1{
+font-weight: 600;
+font-size: 40px;
+}
+
+.buurtcampus-info-container > img{
+margin-top: -50px;
+margin-bottom: -50px;
+}
 
 /* FOOTER */
 
@@ -376,6 +431,17 @@ header {
     padding-bottom: 100px;
   }
 
+  .buurtcampus-info-container{
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 100px 50px 150px 50px;
+  }
+
+  .buurtcampus-info-container-tekst{
+    margin-bottom: 100px;
+  }
 }
 
 /* RESERVEREN */
