@@ -34,4 +34,11 @@ Ook wilt Buurtcampus-Oost graag de huisstijl aanhouden. Daarom zijn bepaalde kle
 
 De pagina is gemaakt met HTML en CSS.
 
+### Licentie
+
+***
+
+![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+
+This work is licensed under [GNU GPLv3](./LICENSE).
 
